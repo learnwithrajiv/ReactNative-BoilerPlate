@@ -1,21 +1,21 @@
-import React, { Component } from "react";
-import { Text, SafeAreaView } from "react-native";
-import { connect } from "react-redux";
+import React, {Component} from 'react';
+import {Text, SafeAreaView} from 'react-native';
+import {connect} from 'react-redux';
 
 class Home extends Component {
-  componentDidMount() {
+  componentDidMount () {
     // console.log("test device", this.props);
   }
-  render() {
+  render () {
     return (
       <SafeAreaView>
         <Text
           adjustsFontSizeToFit={true}
           numberOfLines={2}
-          style={{ textAlign: "center", fontSize: 50 }}
+          style={{textAlign: 'center', fontSize: 50}}
         >
-          {" "}
-          RAJIV BHAI, NAMASKAR!!!
+          {' '}
+          NAMASKAR!!!
         </Text>
       </SafeAreaView>
     );
